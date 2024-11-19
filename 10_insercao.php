@@ -26,7 +26,7 @@
 
         // Conecta ao banco de dados
         // é possível inserir o arquivo de conexão
-        $servername = "localhost";
+        $servername = "localhost:3309";
         $username = "root";
         $password = "";
         $dbname = "exercicio";

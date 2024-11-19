@@ -12,9 +12,8 @@ if ($conn->connect_error) {
     die("Falha na conexão: " . $conn->connect_error);
 }
 
-
 // Consulta os dados da tabela clientes 
-sql = "SELECT id, nome, email FROM clientes";
+$sql = "SELECT id, nome, email FROM clientes";
 $result = $conn->query($sql);
 
 // Verifique se existem registros e os exibe em formato de tabela
